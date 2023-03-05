@@ -1,6 +1,9 @@
-# beryllium-WindowsOnARM-edk2
-A guide on how to get Windows running on your Pocophone F1 (a.k.a poor man's Mi8/Mix2s)
+# SensorFixUp
 
-can shrink /cust and /cache as desired (as long as not running stock MIUI)
-make boot_a partition of ? MB and address it in simpleinit cfg accordingly
-ez
+Inspired by Sophon's commit.
+
+Sensor json files taken from Reignz3 trees.
+
+Edited .inf files accordingly.
+
+IDK culprit. If I were to guess, GPIO in power json.
